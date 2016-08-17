@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
         String jsonStr = "{\"messages\":[{\"gender\":\"nan\",\"id\":\"one\",\"name\":\"wang\"},{\"gender\":\"nv\",\"id\":\"two\",\"name\":\"yuan\"}]}";
         PlayVoice.getInstance().playVoice(this,"takeabreak.mp3");
         Toast.makeText(this,"",Toast.LENGTH_SHORT).setGravity();
-        Log.d(TAG,jsonStr);
+        Log.d(TAG,string);
 
 
     }
