@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 //        userInfo.setAge(20);
 //        userInfo.setName("circle");
 //        String jsonStr = JSON.toJSONString(userInfo);
-        String jsonStr = "{\"age\":20,\"name\":\"circle\"}";
+        // String jsonStr = "{\"age\":20,\"name\":\"circle\"}";
         //update mainactivity from server
         UserInfo userInfo = JSON.parseObject(jsonStr,)
 
